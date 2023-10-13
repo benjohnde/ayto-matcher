@@ -1,0 +1,27 @@
+data class Person(
+    val name: String
+)
+
+val kim = Person("Kim")
+val mike = Person("Mike")
+val steffi = Person("Steffi")
+val teezy = Person("Teezy")
+val sabrina = Person("Sabrina")
+val emanuell = Person("Emanuell")
+val paulina = Person("Paulina")
+val steffen = Person("Steffen")
+val darya = Person("Darya")
+val danilo = Person("Danilo")
+val shakira = Person("Shakira")
+val marvin = Person("Marvin")
+val jennifer = Person("Jennifer")
+val elia = Person("Elia")
+val sandra = Person("Sandra")
+val paco = Person("Paco")
+val marie = Person("Marie")
+val fabio = Person("Fabio")
+val alicia = Person("Alicia")
+val petermax = Person("Peter / Max")
+
+val females = listOf(kim, steffi, sabrina, paulina, darya, shakira, jennifer, sandra, marie, alicia)
+val males = listOf(mike, teezy, emanuell, steffen, danilo, marvin, elia, paco, fabio, petermax)
