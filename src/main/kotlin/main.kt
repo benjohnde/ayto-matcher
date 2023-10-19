@@ -30,7 +30,7 @@ fun isValid(pairs: List<Pair<Person, Person>>): Boolean {
 }
 
 fun main() {
-    var allCombinations = mutableListOf<List<Pair<Person, Person>>>()
+    val allCombinations = mutableListOf<List<Pair<Person, Person>>>()
     findCombinations(females, males, mutableListOf(), allCombinations)
 
     println("potential combinations ${String.format("%,d", allCombinations.count())}")

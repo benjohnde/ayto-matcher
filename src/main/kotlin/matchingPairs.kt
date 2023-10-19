@@ -124,4 +124,19 @@ val matchingPairs = listOf(
         ),
         numberOfMatches = 1
     ), // 8th matching night
+    MatchingPairs(
+        pairs = listOf(
+            Pair(darya, danilo),
+            Pair(steffi, emanuell),
+            Pair(sabrina, mike),
+            Pair(marie, fabio),
+            Pair(shakira, marvin),
+            Pair(kim, teezy),
+            Pair(alicia, steffen),
+            Pair(sandra, elia),
+            Pair(jennifer, petermax),
+            Pair(paulina, paco),
+        ),
+        numberOfMatches = 6
+    ), // 9th matching night
 )
