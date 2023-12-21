@@ -6,137 +6,62 @@ data class MatchingPairs(
 val matchingPairs = listOf(
     MatchingPairs(
         pairs = listOf(
-            Pair(kim, mike),
-            Pair(steffi, teezy),
-            Pair(sabrina, emanuell),
-            Pair(paulina, steffen),
-            Pair(darya, danilo),
-            Pair(shakira, marvin),
-            Pair(jennifer, elia),
-            Pair(sandra, paco),
-            Pair(marie, fabio),
-            Pair(alicia, petermax),
+            Pair(lina, ryan),
+            Pair(sina, kevin),
+            Pair(lisaMarie, eti),
+            Pair(shelly, wilson),
+            Pair(`tais-mela-pia`, paul),
+            Pair(jana, sidar),
+            Pair(julia, martin),
+            Pair(`tais-mela-pia`, gerrit),
+            Pair(maja, paddy),
+            Pair(edda, sandro),
         ),
-        numberOfMatches = 3
+        numberOfMatches = 2
     ), // 1st matching night
     MatchingPairs(
         pairs = listOf(
-            Pair(kim, paco),
-            Pair(steffi, teezy),
-            Pair(sabrina, mike),
-            Pair(paulina, danilo),
-            Pair(darya, emanuell),
-            Pair(shakira, petermax),
-            Pair(jennifer, marvin),
-            Pair(sandra, elia),
-            Pair(marie, fabio),
-            Pair(alicia, steffen),
+            Pair(lina, martin),
+            Pair(sina, kevin),
+            Pair(`tais-mela-pia`, gerrit),
+            Pair(jana, sidar),
+            Pair(maja, wilson),
+            Pair(edda, sandro),
+            Pair(afra, eti),
+            Pair(`tais-mela-pia`, ryan),
+            Pair(lisaMarie, paul),
+            Pair(shelly, paddy),
         ),
         numberOfMatches = 2
     ), // 2nd matching night
     MatchingPairs(
         pairs = listOf(
-            Pair(kim, teezy),
-            Pair(steffi, marvin),
-            Pair(sabrina, petermax),
-            Pair(paulina, mike),
-            Pair(darya, danilo),
-            Pair(shakira, fabio),
-            Pair(jennifer, emanuell),
-            Pair(sandra, paco),
-            Pair(marie, elia),
-            Pair(alicia, steffen),
+            Pair(julia, paddy),
+            Pair(sina, sandro),
+            Pair(`tais-mela-pia`, gerrit),
+            Pair(jana, ryan),
+            Pair(afra, sidar),
+            Pair(`tais-mela-pia`, kevin),
+            Pair(lisaMarie, martin),
+            Pair(shelly, wilson),
+            Pair(maja, eti),
+            Pair(edda, paul),
         ),
-        numberOfMatches = 2
+        numberOfMatches = 4
     ), // 3rd matching night
     MatchingPairs(
         pairs = listOf(
-            Pair(kim, petermax),
-            Pair(steffi, emanuell),
-            Pair(sabrina, paco),
-            Pair(paulina, petermax),
-            Pair(darya, danilo),
-            Pair(shakira, fabio),
-            Pair(jennifer, marvin),
-            Pair(sandra, steffen),
-            Pair(marie, elia),
-            Pair(alicia, teezy),
+            Pair(shelly, wilson),
+            Pair(lina, paddy),
+            Pair(afra, eti),
+            Pair(`tais-mela-pia`, gerrit),
+            Pair(lisaMarie, paul),
+            Pair(edda, ryan),
+            Pair(sina, kevin),
+            Pair(julia, martin),
+            Pair(`tais-mela-pia`, sandro),
+            Pair(jana, sidar),
         ),
-        numberOfMatches = 4
+        numberOfMatches = 3
     ), // 4th matching night
-    MatchingPairs(
-        pairs = listOf(
-            Pair(kim, teezy),
-            Pair(steffi, elia),
-            Pair(sabrina, emanuell),
-            Pair(paulina, mike),
-            Pair(darya, danilo),
-            Pair(shakira, paco),
-            Pair(jennifer, marvin),
-            Pair(sandra, petermax),
-            Pair(marie, fabio),
-            Pair(alicia, steffen),
-        ),
-        numberOfMatches = 3
-    ), // 5th matching night
-    MatchingPairs(
-        pairs = listOf(
-            Pair(kim, teezy),
-            Pair(steffi, emanuell),
-            Pair(sabrina, petermax),
-            Pair(paulina, mike),
-            Pair(darya, danilo),
-            Pair(shakira, fabio),
-            Pair(jennifer, marvin),
-            Pair(sandra, steffen),
-            Pair(marie, elia),
-            Pair(alicia, paco),
-        ),
-        numberOfMatches = 4
-    ), // 6th matching night
-    MatchingPairs(
-        pairs = listOf(
-            Pair(kim, teezy),
-            Pair(steffi, elia),
-            Pair(sabrina, emanuell),
-            Pair(paulina, marvin),
-            Pair(darya, danilo),
-            Pair(shakira, petermax),
-            Pair(jennifer, paco),
-            Pair(sandra, mike),
-            Pair(marie, steffen),
-            Pair(alicia, fabio),
-        ),
-        numberOfMatches = 3
-    ), // 7th matching night
-    MatchingPairs(
-        pairs = listOf(
-            Pair(darya, danilo),
-            Pair(sandra, fabio),
-            Pair(steffi, mike),
-            Pair(alicia, paco),
-            Pair(jennifer, marvin),
-            Pair(kim, petermax),
-            Pair(shakira, steffen),
-            Pair(sabrina, emanuell),
-            Pair(paulina, teezy),
-            Pair(marie, elia),
-        ),
-        numberOfMatches = 1
-    ), // 8th matching night
-    MatchingPairs(
-        pairs = listOf(
-            Pair(darya, danilo),
-            Pair(steffi, emanuell),
-            Pair(sabrina, mike),
-            Pair(marie, fabio),
-            Pair(shakira, marvin),
-            Pair(kim, teezy),
-            Pair(alicia, steffen),
-            Pair(sandra, elia),
-            Pair(jennifer, petermax),
-            Pair(paulina, paco),
-        ),
-        numberOfMatches = 6
-    ), // 9th matching night
 )

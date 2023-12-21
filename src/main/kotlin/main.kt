@@ -21,12 +21,12 @@ fun findCombinations(
 }
 
 fun isValid(pairs: List<Pair<Person, Person>>): Boolean {
-    matchingPairs.forEach {
-        if (it.pairs.intersect(pairs.toSet()).count() != it.numberOfMatches) {
+    matchingPairs.forEach { matchingNight ->
+        if (matchingNight.pairs.intersect(pairs.toSet()).count() != matchingNight.numberOfMatches) {
             return false
         }
     }
-    return !pairs.any { it in noMatch }
+    return pairs.containsAll(perfectMatch) && !pairs.any { it in noMatch }
 }
 
 fun main() {
@@ -37,15 +37,19 @@ fun main() {
     println()
 
     // test which combination would work
-    allCombinations.forEach {
-        if (isValid(it)) {
-            println("potential combination found")
-            println()
-            it.filter { !perfectMatch.contains(it) }.forEach {
-                println("${it.first.name} <-> ${it.second.name}")
-            }
-            println()
-            println()
+    val validCombinations = allCombinations
+        .filter { isValid(it) }
+
+    println("valid combinations ${String.format("%,d", validCombinations.count())}")
+    println()
+
+    validCombinations.forEach {
+        println("potential combination found")
+        println()
+        it.filter { !perfectMatch.contains(it) }.forEach {
+            println("${it.first.name} <-> ${it.second.name}")
         }
+        println()
+        println()
     }
 }
