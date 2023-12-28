@@ -64,4 +64,34 @@ val matchingPairs = listOf(
         ),
         numberOfMatches = 3
     ), // 4th matching night
+    MatchingPairs(
+        pairs = listOf(
+            Pair(`tais-mela-pia`, gerrit),
+            Pair(shelly, wilson),
+            Pair(sina, sandro),
+            Pair(jana, ryan),
+            Pair(lisaMarie, martin),
+            Pair(maja, eti),
+            Pair(edda, paul),
+            Pair(lina, paddy),
+            Pair(julia, kevin),
+            Pair(afra, sidar),
+        ),
+        numberOfMatches = 4
+    ), // 5th matching night
+    MatchingPairs(
+        pairs = listOf(
+            Pair(`tais-mela-pia`, gerrit),
+            Pair(shelly, wilson),
+            Pair(maja, eti),
+            Pair(lina, kevin),
+            Pair(jana, ryan),
+            Pair(lisaMarie, martin),
+            Pair(julia, sidar),
+            Pair(sina, paul),
+            Pair(edda, paddy),
+            Pair(afra, sandro),
+        ),
+        numberOfMatches = 5
+    ), // 6th matching night
 )
