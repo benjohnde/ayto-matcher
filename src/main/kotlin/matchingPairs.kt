@@ -110,4 +110,49 @@ val matchingPairs: List<MatchingPairs>
             ),
             numberOfMatches = 5
         ), // 7th matching night
+        MatchingPairs(
+            pairs = listOf(
+                Pair(`tais-mela-pia`, gerrit),
+                Pair(shelly, wilson),
+                Pair(maja, sidar),
+                Pair(lina, kevin),
+                Pair(afra, eti),
+                Pair(julia, sandro),
+                Pair(jana, paddy),
+                Pair(lisaMarie, martin),
+                Pair(sina, paul),
+                Pair(edda, ryan),
+            ),
+            numberOfMatches = 4
+        ), // 8th matching night
+        MatchingPairs(
+            pairs = listOf(
+                Pair(`tais-mela-pia`, gerrit),
+                Pair(shelly, wilson),
+                Pair(julia, sandro),
+                Pair(maja, eti),
+                Pair(lina, kevin),
+                Pair(jana, ryan),
+                Pair(afra, sidar),
+                Pair(sina, paddy),
+                Pair(edda, paul),
+                Pair(lisaMarie, martin),
+            ),
+            numberOfMatches = 6
+        ), // 9th matching night
+        MatchingPairs(
+            pairs = listOf(
+                Pair(`tais-mela-pia`, gerrit),
+                Pair(shelly, wilson),
+                Pair(lina, kevin),
+                Pair(julia, sandro),
+                Pair(maja, eti),
+                Pair(jana, ryan),
+                Pair(afra, martin),
+                Pair(edda, paddy),
+                Pair(sina, sidar),
+                Pair(lisaMarie, paul),
+            ),
+            numberOfMatches = 7
+        ), // 10th matching night
     )
