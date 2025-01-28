@@ -1,8 +1,6 @@
 val noMatch = listOf(
-    Pair(jana, paul),
-    Pair(lina, ryan),
-    Pair(maja, kevin),
-    Pair(`tais-mela-pia`, eti),
-    Pair(sina, sandro),
-    Pair(julia, paul),
+    Pair(LauraL, MarcRobin),
+    Pair(Asena, MarcRobin),
+    Pair(Jennifer, Lukas),
+    Pair(Lars, LauraL),
 )

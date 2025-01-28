@@ -1,22 +1,22 @@
 fun findCombinations(
     listA: List<Person>,
     listB: List<Person>,
-    currentCombinations: MutableList<Pair<Person, Person>>,
+    currentCombinations: List<Pair<Person, Person>>,
     allCombinations: MutableList<List<Pair<Person, Person>>>
 ) {
     if (listA.isEmpty()) {
-        allCombinations.add(currentCombinations.toList())
+        allCombinations.add(currentCombinations)
         return
     }
     val currentA = listA.first()
-    listB.forEach {
+    for (it in listB) {
+        val newCurrentCombinations = currentCombinations + Pair(currentA, it)
         findCombinations(
             listA.drop(1),
             listB - it,
-            currentCombinations.apply { add(Pair(currentA, it)) },
+            newCurrentCombinations,
             allCombinations
         )
-        currentCombinations.removeAt(currentCombinations.size - 1)
     }
 }
 
@@ -34,7 +34,6 @@ fun main() {
     findCombinations(females, males, mutableListOf(), allCombinations)
 
     println("potential combinations ${String.format("%,d", allCombinations.count())}")
-    println()
 
     // test which combination would work
     val validCombinations = allCombinations

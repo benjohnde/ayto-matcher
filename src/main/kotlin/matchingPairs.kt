@@ -7,152 +7,122 @@ val matchingPairs: List<MatchingPairs>
     get() = listOf(
         MatchingPairs(
             pairs = listOf(
-                Pair(lina, ryan),
-                Pair(sina, kevin),
-                Pair(lisaMarie, eti),
-                Pair(shelly, wilson),
-                Pair(`tais-mela-pia`, paul),
-                Pair(jana, sidar),
-                Pair(julia, martin),
-                Pair(`tais-mela-pia`, gerrit),
-                Pair(maja, paddy),
-                Pair(edda, sandro),
+                Pair(LindaDana, Tim),
+                Pair(Jennifer, Lukas),
+                Pair(Tara, Nikola),
+                Pair(Nadja, Lars),
+                Pair(Asena, Kaan),
+                Pair(Emmy, Chris),
+                Pair(LauraL, Alex),
+                Pair(Anastasia, MarcRobin),
+                Pair(Gabriela, Ozan),
+                Pair(LauraM, Antonino),
             ),
             numberOfMatches = 2
         ), // 1st matching night
         MatchingPairs(
             pairs = listOf(
-                Pair(lina, martin),
-                Pair(sina, kevin),
-                Pair(`tais-mela-pia`, gerrit),
-                Pair(jana, sidar),
-                Pair(maja, wilson),
-                Pair(edda, sandro),
-                Pair(afra, eti),
-                Pair(`tais-mela-pia`, ryan),
-                Pair(lisaMarie, paul),
-                Pair(shelly, paddy),
+                Pair(LindaDana, Antonino),
+                Pair(Jennifer, Alex),
+                Pair(Anastasia, Lars),
+                Pair(Nadja, Kaan),
+                Pair(LindaDana, Tim),
+                Pair(Asena, MarcRobin),
+                Pair(LauraL, Ozan),
+                Pair(Tara, Nikola),
+                Pair(LauraM, Lukas),
+                Pair(Emmy, Chris),
             ),
-            numberOfMatches = 2
+            numberOfMatches = 3
         ), // 2nd matching night
         MatchingPairs(
             pairs = listOf(
-                Pair(julia, paddy),
-                Pair(sina, sandro),
-                Pair(`tais-mela-pia`, gerrit),
-                Pair(jana, ryan),
-                Pair(afra, sidar),
-                Pair(`tais-mela-pia`, kevin),
-                Pair(lisaMarie, martin),
-                Pair(shelly, wilson),
-                Pair(maja, eti),
-                Pair(edda, paul),
+                Pair(Jennifer, Kaan),
+                Pair(Asena, MarcRobin),
+                Pair(Anastasia, Alex),
+                Pair(LindaDana, Tim),
+                Pair(Nadja, Antonino),
+                Pair(LindaDana, Lukas),
+                Pair(LauraM, Ozan),
+                Pair(LauraL, Nikola),
+                Pair(Gabriela, Lars),
+                Pair(Emmy, Chris),
             ),
-            numberOfMatches = 4
+            numberOfMatches = 3
         ), // 3rd matching night
         MatchingPairs(
             pairs = listOf(
-                Pair(shelly, wilson),
-                Pair(lina, paddy),
-                Pair(afra, eti),
-                Pair(`tais-mela-pia`, gerrit),
-                Pair(lisaMarie, paul),
-                Pair(edda, ryan),
-                Pair(sina, kevin),
-                Pair(julia, martin),
-                Pair(`tais-mela-pia`, sandro),
-                Pair(jana, sidar),
+                Pair(Asena, Kaan),
+                Pair(LindaDana, MarcRobin),
+                Pair(Anastasia, Nikola),
+                Pair(LauraL, Tim),
+                Pair(Nadja, Antonino),
+                Pair(Gabriela, Lukas),
+                Pair(LauraM, Ozan),
+                Pair(Tara, Lars),
+                Pair(Jennifer, Alex),
+                Pair(Emmy, Chris),
             ),
-            numberOfMatches = 3
+            numberOfMatches = 1
         ), // 4th matching night
         MatchingPairs(
             pairs = listOf(
-                Pair(`tais-mela-pia`, gerrit),
-                Pair(shelly, wilson),
-                Pair(sina, sandro),
-                Pair(jana, ryan),
-                Pair(lisaMarie, martin),
-                Pair(maja, eti),
-                Pair(edda, paul),
-                Pair(lina, paddy),
-                Pair(julia, kevin),
-                Pair(afra, sidar),
+                Pair(Asena, Antonino),
+                Pair(LindaDana, Tim),
+                Pair(Anastasia, MarcRobin),
+                Pair(LauraL, Nikola),
+                Pair(Nadja, Lars),
+                Pair(Gabriela, Alex),
+                Pair(LindaDana, Ozan),
+                Pair(Tara, Kaan),
+                Pair(Jennifer, Lukas),
+                Pair(Emmy, Chris),
             ),
-            numberOfMatches = 4
+            numberOfMatches = 5
         ), // 5th matching night
         MatchingPairs(
             pairs = listOf(
-                Pair(`tais-mela-pia`, gerrit),
-                Pair(shelly, wilson),
-                Pair(maja, eti),
-                Pair(lina, kevin),
-                Pair(jana, ryan),
-                Pair(lisaMarie, martin),
-                Pair(julia, sidar),
-                Pair(sina, paul),
-                Pair(edda, paddy),
-                Pair(afra, sandro),
+                Pair(Jennifer, Lukas),
+                Pair(LauraM, MarcRobin),
+                Pair(LindaDana, Lars),
+                Pair(LindaDana, Tim),
+                Pair(Asena, Antonino),
+                Pair(Gabriela, Alex),
+                Pair(Nadja, Nikola),
+                Pair(Tara, Kaan),
+                Pair(Anastasia, Ozan),
+                Pair(Emmy, Chris),
             ),
-            numberOfMatches = 5
+            numberOfMatches = 6
         ), // 6th matching night
         MatchingPairs(
             pairs = listOf(
-                Pair(`tais-mela-pia`, gerrit),
-                Pair(shelly, wilson),
-                Pair(maja, eti),
-                Pair(lina, kevin),
-                Pair(afra, martin),
-                Pair(julia, sandro),
-                Pair(jana, paddy),
-                Pair(lisaMarie, sidar),
-                Pair(sina, paul),
-                Pair(edda, ryan),
+                Pair(LindaDana, Tim),
+                Pair(LindaDana, Lukas),
+                Pair(LauraL, Lars),
+                Pair(Asena, Antonino),
+                Pair(Tara, Kaan),
+                Pair(Nadja, Nikola),
+                Pair(Gabriela, Alex),
+                Pair(LauraM, MarcRobin),
+                Pair(Anastasia, Ozan),
+                Pair(Emmy, Chris),
             ),
-            numberOfMatches = 5
+            numberOfMatches = 6
         ), // 7th matching night
         MatchingPairs(
             pairs = listOf(
-                Pair(`tais-mela-pia`, gerrit),
-                Pair(shelly, wilson),
-                Pair(maja, sidar),
-                Pair(lina, kevin),
-                Pair(afra, eti),
-                Pair(julia, sandro),
-                Pair(jana, paddy),
-                Pair(lisaMarie, martin),
-                Pair(sina, paul),
-                Pair(edda, ryan),
-            ),
-            numberOfMatches = 4
-        ), // 8th matching night
-        MatchingPairs(
-            pairs = listOf(
-                Pair(`tais-mela-pia`, gerrit),
-                Pair(shelly, wilson),
-                Pair(julia, sandro),
-                Pair(maja, eti),
-                Pair(lina, kevin),
-                Pair(jana, ryan),
-                Pair(afra, sidar),
-                Pair(sina, paddy),
-                Pair(edda, paul),
-                Pair(lisaMarie, martin),
-            ),
-            numberOfMatches = 6
-        ), // 9th matching night
-        MatchingPairs(
-            pairs = listOf(
-                Pair(`tais-mela-pia`, gerrit),
-                Pair(shelly, wilson),
-                Pair(lina, kevin),
-                Pair(julia, sandro),
-                Pair(maja, eti),
-                Pair(jana, ryan),
-                Pair(afra, martin),
-                Pair(edda, paddy),
-                Pair(sina, sidar),
-                Pair(lisaMarie, paul),
+                Pair(Tara, Lukas),
+                Pair(LauraM, MarcRobin),
+                Pair(Nadja, Nikola),
+                Pair(Jennifer, Kaan),
+                Pair(Gabriela, Alex),
+                Pair(LauraL, Lars),
+                Pair(Asena, Antonino),
+                Pair(LindaDana, Tim),
+                Pair(Anastasia, Ozan),
+                Pair(Emmy, Chris),
             ),
             numberOfMatches = 7
-        ), // 10th matching night
+        ), // 8th matching night
     )
